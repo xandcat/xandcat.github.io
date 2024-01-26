@@ -1,0 +1,31 @@
+
+body{
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+	color:aliceblue;
+	background-color:darkslateblue;
+	text-align: center;
+	border: 3px solid rgb(155, 142, 239);
+ 	border-radius: 5px;
+ 	border-style: ridge;}
+
+img {
+border-radius: 50%;
+}
+p {
+	margin-top: 5px;
+}
+nav {
+	float: left;
+	width: 200px;
+	background: #ccc;
+	padding: 20px;
+  }
+  
+
+  
+  article {
+	padding: 20px;
+	background-color: #f1f1f1;
+  }
