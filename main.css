@@ -5,29 +5,58 @@ body{
   	background-repeat: repeat-x;
 }
 h1{
-	
-	background: rgba(152, 179, 152, 0.7);
+	background: rgba(89, 113, 89, 0.8);
 	text-align: center;
+	
 	border: 3px solid rgb(241, 175, 167);
  	border-radius: 5px;
  	border-style: ridge;}
 
 img {
+display: inline;
 border-radius: 50%;
+float: left;
 }
 p {
 	margin-top: 5px;
 }
-nav {
-	float: left;
-	width: 200px;
-	background: rgb(112, 143, 112);
-	padding: 20px;
+
+  /* Style the topnav links */
+
+.info {
+	float: center;
+	display: block;
+	background-color: rgba(58, 97, 58, 0.8);
+	color: rgb(152, 179, 152);
+	text-align: right;
+	padding: 14px 16px;
+	text-decoration: none;
   }
   
+  /* Change color on hover */
+  a:link:hover {
+	background-color: rgba(152, 179, 152);
+	color: white;
+  }
+  a:link {
+	color: rgb(28, 40, 28);
+	text-decoration: none;
+}
 
+
+.content {
+	float: left;
+	padding: 10px;
+	background-color: rgba(152, 179, 152, 0.8);
+  }
+  footer{
+    text-align: center;
+  }
   
-  article {
-	padding: 20px;
-	background-color: rgb(183, 202, 183);
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+  @media screen and (max-width: 600px) {
+	.column {
+	  width: 100%;
+	}
   }
