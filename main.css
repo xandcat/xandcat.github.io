@@ -42,9 +42,13 @@ p {
 	color: rgb(28, 40, 28);
 	text-decoration: none;
 }
+ul {
+	list-style-type: circle;
+  }
 
 
 .content {
+	width: 100%;
 	float: left;
 	padding: 10px;
 	background-color: rgba(152, 179, 152, 0.8);
